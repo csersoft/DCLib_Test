@@ -1,14 +1,14 @@
 #pragma once
 
 /************************************************************************/
-/* VERSION: 0.0.1                                                       */
-/*                                                                      */
+/* VERSION: 0.0.3                                                       */
 /************************************************************************/
 
 #ifndef _WINDOWS_
 #include <Windows.h>
 #endif
 
+#pragma warning( disable : 4091 )
 #pragma comment(lib, "DreamColorDLL.lib")
 
 #ifndef __cplusplus
@@ -22,6 +22,10 @@ enum DC_ERROR : int;
 
 DLL_IMPORT_API class CDreamColorDLLApp
 {
+private:
+  int InitializePrescriptions(void);
+  bool isXP(void);
+
 public:
   bool blSetCalibrator;
   DC_ERROR LastError;
@@ -70,9 +74,14 @@ public:
   void TestBacklight(void);
   bool TestUSBConnection(void);
   bool TestUSBConnectionWithSerialNumber(const char*);
-  
-private:
-  int InitializePrescriptions(void);
-  bool isXP();
+ 
+  inline int __InitializePrescriptions(void)
+  {
+    return this->InitializePrescriptions();
+  }
 
+  inline bool __isXP(void)
+  {
+    return this->isXP();
+  }
 };
