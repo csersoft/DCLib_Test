@@ -5,11 +5,6 @@
 /*                                                                      */
 /************************************************************************/
 
-
-#ifndef _STDINT
-#include <stdint.h>
-#endif
-
 #ifndef _WINDOWS_
 #include <Windows.h>
 #endif
