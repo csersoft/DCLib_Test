@@ -1,0 +1,47 @@
+LIBRARY DreamColorDLL.dll
+
+EXPORTS
+
+    ??0CDreamColorDLLApp@@QAE@XZ      @1
+    ??1CDreamColorDLLApp@@QAE@XZ      @2
+    ?CalibratePrescription@CDreamColorDLLApp@@QAE_NPAUPrescription@@@Z      @3
+    ?CheckErrorReturn@CDreamColorDLLApp@@QAE?AW4DC_ERROR@@XZ      @4
+    ?CheckPrescriptionGamut@CDreamColorDLLApp@@QAE?AW4DC_ERROR@@PAUPrescription@@@Z      @5
+    ?ForceUSBConnection@CDreamColorDLLApp@@QAEXXZ      @6
+    ?GetBackLightHours@CDreamColorDLLApp@@QAEFF@Z      @7
+    ?GetBackLightYxy@CDreamColorDLLApp@@QAE_NPAN00@Z      @8
+    ?GetColorSpaceName@CDreamColorDLLApp@@QAE_NFPAD@Z      @9 
+    ?GetColorTempFrom_xy@CDreamColorDLLApp@@QAE_NPANNN@Z     @10
+    ?GetCurrentColorSpace@CDreamColorDLLApp@@QAEHXZ     @11 
+    ?GetDaylightColorTemp_xy@CDreamColorDLLApp@@QAE_NNPAN0@Z     @12
+    ?GetDisplayEDIDName@CDreamColorDLLApp@@QAE_NPAD@Z     @13
+    ?GetDisplayIndex@CDreamColorDLLApp@@QAEHXZ     @14
+    ?GetDisplayMaxLum@CDreamColorDLLApp@@QAE_NPAN@Z     @15
+    ?GetDisplayName@CDreamColorDLLApp@@QAE_NKKPAD@Z     @16
+    ?GetDisplayTypeFromIndexList@CDreamColorDLLApp@@QAEHH@Z     @17
+    ?GetFactoryPrescription@CDreamColorDLLApp@@QAE_NFPAUPrescription@@@Z     @18
+    ?GetNumberOfColorSpaces@CDreamColorDLLApp@@QAEHF@Z     @19
+    ?GetNumberOfPrescriptions@CDreamColorDLLApp@@QAEHXZ     @20
+    ?GetObiWanSerialNumber@CDreamColorDLLApp@@QAE_NPADH@Z     @21
+    ?GetPrescription@CDreamColorDLLApp@@QAE?AW4DC_ERROR@@FPAUPrescription@@@Z     @22
+    ?GetSerialNumber@CDreamColorDLLApp@@QAE_NKKPAD@Z     @23
+    ?GetSerialNumber@CDreamColorDLLApp@@QAE_NPAD@Z     @24
+    ?InitializePrescriptions@CDreamColorDLLApp@@AAEHXZ     @25
+    ?IsFactoryName@CDreamColorDLLApp@@QAE_NPAD@Z     @26
+    ?IsThisDisplayDreamColor2@CDreamColorDLLApp@@QAE_NKK@Z     @27
+    ?IsThisDisplayDreamColor@CDreamColorDLLApp@@QAE_NKK@Z     @28
+    ?OpenDCMulitpledisplays@CDreamColorDLLApp@@QAE_NPAH@Z     @29
+    ?OpenDCdisplay@CDreamColorDLLApp@@QAEHXZ     @30
+    ?ResetFactoryPrescription@CDreamColorDLLApp@@QAE_NFPAUPrescription@@@Z     @31
+    ?SelectColorSpace@CDreamColorDLLApp@@QAE_NF@Z     @32
+    ?SetBackLightHours@CDreamColorDLLApp@@QAE_NHH@Z     @33
+    ?SetBackLightYxy@CDreamColorDLLApp@@QAE_NNNN@Z     @34
+    ?SetCalibrator@CDreamColorDLLApp@@QAE_NPAX@Z     @35
+    ?SetDisplayIndex@CDreamColorDLLApp@@QAE_NH_N@Z     @36
+    ?SetDisplayIndex@CDreamColorDLLApp@@QAE_NH_NH@Z     @37
+    ?SetPrescription@CDreamColorDLLApp@@QAE_NFPAUPrescription@@@Z     @38
+    ?TestBacklight@CDreamColorDLLApp@@QAEXXZ     @39
+    ?TestUSBConnection@CDreamColorDLLApp@@QAE_NXZ     @40
+    ?TestUSBConnectionWithSerialNumber@CDreamColorDLLApp@@QAE_NPBD@Z     @41
+    ?isXP@CDreamColorDLLApp@@AAE_NXZ     @42
+

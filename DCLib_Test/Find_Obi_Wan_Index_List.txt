@@ -1,0 +1,1 @@
+Found display at display index 1, setting it at index 0 with type DC_LAPTOP_LGD with product code 220
