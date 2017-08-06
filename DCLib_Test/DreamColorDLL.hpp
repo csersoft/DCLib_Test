@@ -38,7 +38,7 @@ public:
 
   bool CalibratePrescription(Prescription*);
   DC_ERROR CheckErrorReturn(void);
-  int CheckPrescriptionGamut(Prescription*);
+  DC_ERROR CheckPrescriptionGamut(Prescription*);
   void ForceUSBConnection(void);
   short GetBackLightHours(short);
   bool GetBackLightYxy(double*, double*, double*);
